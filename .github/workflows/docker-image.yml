@@ -26,5 +26,5 @@ jobs:
       with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-          repository: schose/schose/apache-typo3-legacy
+          repository: schose/apache-typo3-legacy
           tag: latest
